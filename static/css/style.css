@@ -179,3 +179,24 @@ footer{
     color:white;
     padding:25px;
 }
+.contact-links{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.contact-links a{
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:14px 28px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.contact-links a:hover{
+    background:#1d4ed8;
+    transform:translateY(-5px);
+}
