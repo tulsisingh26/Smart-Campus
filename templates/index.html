@@ -23,16 +23,34 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <h1>Smart Campus Management System</h1>
 
-        <p>
-            A cloud-based platform that simplifies campus management,
-            attendance tracking, student records, faculty management,
-            and academic administration.
-        </p>
+    <div class="hero-content">
 
-        <a href="#features" class="btn">Explore Features</a>
-    </section>
+        <div class="hero-text">
+
+            <h1>Smart Campus Management System</h1>
+
+            <p>
+                A cloud-based platform that simplifies student management,
+                faculty records, attendance tracking, and course administration.
+            </p>
+
+            <a href="#features" class="btn">
+                Explore Features
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="{{ url_for('static', filename='images/campus.svg') }}"
+                 alt="Smart Campus">
+
+        </div>
+
+    </div>
+
+</section>
 
     <!-- Features -->
     <section id="features" class="features">
