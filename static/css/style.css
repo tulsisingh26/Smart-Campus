@@ -211,6 +211,78 @@ h2{
     background:#1d4ed8;
     transform:translateY(-5px);
 }
+/* ==========================
+   Student Registration
+========================== */
+
+.register{
+    width: 90%;
+    max-width: 900px;
+    margin: 70px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.register h2{
+    font-size: 38px;
+    color: #2c3e50;
+    margin-bottom: 35px;
+}
+
+.register-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.register-form input{
+    width: 260px;
+    padding: 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+    outline: none;
+}
+
+.register-form input:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+}
+
+.register-form button{
+    width: 260px;
+    padding: 14px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-form button:hover{
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Success Message */
+
+.success-message{
+    width: 70%;
+    margin: 0 auto 25px;
+    padding: 15px;
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
 /* Footer */
 
@@ -219,6 +291,17 @@ footer{
     color:white;
     text-align:center;
     padding:25px;
+}
+.success-message{
+    width:60%;
+    margin:20px auto;
+    padding:15px;
+    background:#d4edda;
+    color:#155724;
+    border:1px solid #c3e6cb;
+    border-radius:8px;
+    text-align:center;
+    font-weight:bold;
 }
 
 /* Responsive */
